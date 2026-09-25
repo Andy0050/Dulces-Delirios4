@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dulces Delirios | Crumble Cookies Artesanales</title>
+    <meta name="description" content="Crumble cookies artesanales en Medellín. Seis sabores fijos, ingredientes de calidad y un nuevo sabor cada mes.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <nav class="navbar">
+
+            <a href="#inicio" class="logo">Dulces Delirios</a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Sabores</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+            <a href="#menu" class="nav-cta">Ver sabores</a>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="hero" id="inicio">
+            <div class="hero-inner">
+
+                <div class="hero-copy">
+                    <h1>Un sabor para cada delirio</h1>
+
+                    <p class="hero-lede">
+                        Crumble cookies artesanales, horneadas en lotes pequeños
+                        y suaves por dentro. Seis sabores fijos y uno nuevo cada mes.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#menu" class="btn btn-primary">Ver sabores</a>
+                        <a href="#nosotros" class="btn btn-ghost">Conócenos</a>
+                    </div>
+
+                    <dl class="hero-stats">
+                        <div><dt>Sabores fijos</dt><dd>6</dd></div>
+                        <div><dt>Elaboración</dt><dd>100% artesanal</dd></div>
+                        <div><dt>Precio único</dt><dd>$8.000</dd></div>
+                    </dl>
+                </div>
+
+                <div class="hero-visual">
+                    <img
+                        class="hero-photo"
+                        src=".img/cajas-sabores.jpg"
+                        alt="Cajas de crumble cookies Dulces Delirios: chocolate, café, leche Klim, milo, brownie, oreo y vainilla chips"
+                        width="692" height="1230" loading="eager">
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="menu" id="menu">
+
+            <div class="section-intro">
+                <h2>El menú de la semana</h2>
+                <p>Seis sabores fijos, todos al mismo precio. Se hornean por encargo y en cantidades limitadas.</p>
+            </div>
+
+            <ul class="menu-list">
+
+                <li class="menu-item">
+                    <span class="swatch swatch-oreo"></span>
+                    <div class="menu-item-text">
+                        <div class="menu-item-head">
+                            <h3>Oreo</h3>
+                            <span class="dots"></span>
+                            <span class="price">$8.000</span>
+                        </div>
+                        <p>Chocolate, crema y trozos de galleta Oreo.</p>
+                    </div>
+                </li>
+
+                <li class="menu-item">
+                    <span class="swatch swatch-cafe"></span>
+                    <div class="menu-item-text">
+                        <div class="menu-item-head">
+                            <h3>Café</h3>
+                            <span class="dots"></span>
+                            <span class="price">$8.000</span>
+                        </div>
+                        <p>Café intenso combinado con chocolate.</p>
+                    </div>
+                </li>
+
+                <li class="menu-item">
+                    <span class="swatch swatch-vainilla"></span>
+                    <div class="menu-item-text">
+                        <div class="menu-item-head">
+                            <h3>Vainilla</h3>
+                            <span class="dots"></span>
+                            <span class="price">$8.000</span>
+                        </div>
+                        <p>Un clásico suave con chispas de chocolate.</p>
+                    </div>
+                </li>
+
+                <li class="menu-item">
+                    <span class="swatch swatch-chocolate"></span>
+                    <div class="menu-item-text">
+                        <div class="menu-item-head">
+                            <h3>Chocolate</h3>
+                            <span class="dots"></span>
+                            <span class="price">$8.000</span>
+                        </div>
+                        <p>Intensa, para quienes no negocian con el cacao.</p>
+                    </div>
+                </li>
+
+                <li class="menu-item">
+                    <span class="swatch swatch-redvelvet"></span>
+                    <div class="menu-item-text">
+                        <div class="menu-item-head">
+                            <h3>Brownie</h3>
+                            <span class="dots"></span>
+                            <span class="price">$8.000</span>
+                        </div>
+                        <p>Suave y deliciosa.Para los amantes del dulce.</p>
+                    </div>
+                </li>
+
+                <li class="menu-item">
+                    <span class="swatch swatch-cookies"></span>
+                    <div class="menu-item-text">
+                        <div class="menu-item-head">
+                            <h3>Cookies &amp; Cream <span class="tag">Edición especial</span></h3>
+                            <span class="dots"></span>
+                            <span class="price">$8.000</span>
+                        </div>
+                        <p>Base cremosa con trozos de galleta triturada.</p>
+                    </div>
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <section class="about" id="nosotros">
+
+            <div class="about-visual">
+                <img class="about-logo" src=".img/logo-dulces-delirios.png" alt="Logo de Dulces Delirios" width="565" height="565" loading="lazy">
+            </div>
+
+            <div class="about-copy">
+                <h2>Hechas para disfrutar cada momento</h2>
+
+                <p>
+                    Dulces Delirios es un emprendimiento dedicado a la elaboración de
+                    crumble cookies artesanales en distintos sabores.
+                </p>
+
+                <p>
+                    Trabajamos con cantidades limitadas para cuidar la calidad de cada
+                    horneada y ofrecer una experiencia distinta a cada cliente.
+                </p>
+
+                <div class="about-stats">
+                    <div><strong>100%</strong><span>Artesanal</span></div>
+                    <div><strong>6</strong><span>Sabores fijos</span></div>
+                    <div><strong>MDE</strong><span>Hechas en Medellín</span></div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="mission">
+            <div class="mission-row">
+
+                <div class="mission-block">
+                    <h3>Misión</h3>
+                    <p>
+                        Elaborar crumble cookies de calidad, creativas y accesibles,
+                        con una experiencia agradable para el cliente y prácticas
+                        responsables con el medio ambiente.
+                    </p>
+                </div>
+
+                <div class="mission-divider" aria-hidden="true"></div>
+
+                <div class="mission-block">
+                    <h3>Visión</h3>
+                    <p>
+                        Para 2030, ser un emprendimiento reconocido a nivel local por
+                        la calidad, variedad e innovación de nuestras cookies.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="process" id="proceso">
+
+            <div class="section-intro">
+                <h2>De los ingredientes a tu cookie</h2>
+            </div>
+
+            <ol class="process-list">
+                <li>
+                    <span class="step-num">01</span>
+                    <h3>Ingredientes</h3>
+                    <p>Seleccionamos materias primas de calidad.</p>
+                </li>
+                <li>
+                    <span class="step-num">02</span>
+                    <h3>Preparación</h3>
+                    <p>Mezclamos y preparamos cada masa a mano.</p>
+                </li>
+                <li>
+                    <span class="step-num">03</span>
+                    <h3>Horneado</h3>
+                    <p>Horneamos hasta conseguir la textura justa.</p>
+                </li>
+                <li>
+                    <span class="step-num">04</span>
+                    <h3>Empaque</h3>
+                    <p>Empacamos para que lleguen perfectas.</p>
+                </li>
+            </ol>
+
+            <div class="process-photos">
+                <figure class="process-photo">
+                    <img src=".img/antes-hornear.jpg" alt="Masa de crumble cookies recién puesta en la bandeja del horno" width="1220" height="692" loading="lazy">
+                    <figcaption>Antes de hornear</figcaption>
+                </figure>
+                <figure class="process-photo">
+                    <img src=".img/recien-horneadas.jpg" alt="Crumble cookies recién horneadas, doradas y aún calientes" width="1220" height="692" loading="lazy">
+                    <figcaption>Recién horneadas</figcaption>
+                </figure>
+            </div>
+
+        </section>
+
+
+        <section class="environment">
+
+            <div class="environment-copy">
+                <h2>También cuidamos el planeta</h2>
+                <p>Reducimos nuestro impacto ambiental con acciones pequeñas y constantes.</p>
+            </div>
+
+            <ul class="environment-list">
+                <li><span class="env-mark"></span>Empaques reciclables</li>
+                <li><span class="env-mark"></span>Producción sin desperdicio</li>
+                <li><span class="env-mark"></span>Compras según la demanda</li>
+            </ul>
+
+        </section>
+
+
+        <section class="monthly">
+            <div class="monthly-inner">
+
+                <div class="monthly-copy">
+                    <span class="monthly-label">Edición del mes</span>
+                    <h2>La crumble del mes</h2>
+                    <p>
+                        Cada mes creamos un sabor limitado. Los próximos se eligen
+                        por votación en nuestras redes sociales.
+                    </p>
+                    <a href="#contacto" class="btn btn-light">Quiero probarla</a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="contact" id="contacto">
+
+            <div class="section-intro">
+                <h2>¿Listo para tu próximo delirio?</h2>
+                <p>Escríbenos y descubre qué sabores tenemos disponibles esta semana.</p>
+            </div>
+
+            <div class="contact-links">
+                <a href="https://instagram.com/dulcesdelirios" target="_blank" rel="noopener" class="contact-link">
+                    <span class="contact-label">Instagram</span>
+                    <span class="contact-value">@dulcesdelirios</span>
+                </a>
+                <a href="https://wa.me/573000000000" target="_blank" rel="noopener" class="contact-link contact-link-highlight">
+                    <span class="contact-label">WhatsApp</span>
+                    <span class="contact-value">+57 300 000 0000</span>
+                </a>
+                <span class="contact-link contact-link-static">
+                    <span class="contact-label">Ubicación</span>
+                    <span class="contact-value">Medellín, Colombia</span>
+                </span>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="footer-logo">Dulces Delirios</div>
+        <p class="footer-tagline">“Un sabor para cada delirio.”</p>
+        <small>© 2026 Dulces Delirios. Proyecto de emprendimiento.</small>
+    </footer>
+
+    <script>
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        navToggle.addEventListener('click', () => {
+            const isOpen = navLinks.classList.toggle('is-open');
+            navToggle.setAttribute('aria-expanded', isOpen);
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('is-open');
+                navToggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+    </script>
+
+</body>
+</html>
